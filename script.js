@@ -2,6 +2,6 @@ $('.signup-show').click(function() {
   $('#signup-modal').fadeIn();
 });
 
-$('#close-modal').click(function() {
+$('.fa-times').click(function() {
   $('#signup-modal').fadeOut();
 });
